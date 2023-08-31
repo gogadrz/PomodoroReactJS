@@ -1,0 +1,30 @@
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.listItem:first-child {
+  border-top: 1px solid #e4e4e4;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  color: #333;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 17px;
+  border-bottom: 1px solid #e4e4e4;
+  width: 69%;
+}
+
+.pomodoroCnt {
+  margin-right: 7px;
+}
+
+.pomodoroDescr {
+  margin-right: 15px;
+}

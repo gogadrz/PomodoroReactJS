@@ -1,0 +1,8 @@
+.leftBlock {
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    margin-right: 16px;
+    /* background-color: aquamarine; */
+    /* outline: 1px solid gray; */
+}
