@@ -20,6 +20,7 @@ export function AddTask() {
       />
       <button
         className={styles.addTaskBtn}
+        disabled={!text}
         onClick={(event) => {
           event.preventDefault();
           dispatch(addPomodoro({ text }));

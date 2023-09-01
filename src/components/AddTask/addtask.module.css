@@ -31,6 +31,15 @@
 .addTaskBtn {
   padding: 20px 58px;
   color: #fff;
-  background-color: #a8b64f;
+  /* background-color: #a8b64f; */
+  background-color: rgba(168, 182, 79, 1);
   border: none;
+  cursor: pointer;
+}
+
+.addTaskBtn:disabled {
+  color: #999;
+  background-color: rgba(168, 182, 79, 0.3);
+
+  cursor: default;
 }
